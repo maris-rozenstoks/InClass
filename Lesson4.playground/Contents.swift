@@ -56,6 +56,7 @@ func averageCalculation(_ numbers: Double...) -> Double {
     }
     
     return total / Double(numbers.count)
+    
 }
 
 averageCalculation(10,5,10,5,10,5)
